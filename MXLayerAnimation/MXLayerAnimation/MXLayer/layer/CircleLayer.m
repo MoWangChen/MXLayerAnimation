@@ -109,4 +109,26 @@ static const NSTimeInterval KAnimationBeginTime = 0.0;
     [self addAnimation:animationGroup forKey:nil];
 }
 
+- (void)expandAnimation
+{
+    CABasicAnimation *expandAnimation = [CABasicAnimation animationWithKeyPath:@"path"];
+    expandAnimation.fromValue = (__bridge id _Nullable)(self.circleSmallPath.CGPath);
+    expandAnimation.toValue = (__bridge id _Nullable)(self.circleBigPath.CGPath);
+    expandAnimation.duration = KAnimationDuration;
+    expandAnimation.fillMode = kCAFillModeForwards;
+    expandAnimation.removedOnCompletion = NO;
+    [self addAnimation:expandAnimation forKey:nil];
+}
+
+- (void)contractAnimation
+{
+    CABasicAnimation *contractAnimation = [CABasicAnimation animationWithKeyPath:@"path"];
+    contractAnimation.fromValue = (__bridge id _Nullable)(self.circleBigPath.CGPath);
+    contractAnimation.toValue = (__bridge id _Nullable)(self.circleSmallPath.CGPath);
+    contractAnimation.duration = KAnimationDuration;
+    contractAnimation.fillMode = kCAFillModeForwards;
+    contractAnimation.removedOnCompletion = NO;
+    [self addAnimation:contractAnimation forKey:nil];
+}
+
 @end

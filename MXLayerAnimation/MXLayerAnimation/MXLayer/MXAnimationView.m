@@ -30,7 +30,7 @@
 - (void)addCircleLayer
 {
     [self.layer addSublayer:self.circleLayer];
-    [_circleLayer wobbleAnimation];
+    [_circleLayer contractAnimation];
 }
 
 #pragma mark - lazy load

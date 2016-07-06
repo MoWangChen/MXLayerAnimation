@@ -12,4 +12,8 @@
 
 - (void)wobbleAnimation;
 
+- (void)expandAnimation;
+
+- (void)contractAnimation;
+
 @end
