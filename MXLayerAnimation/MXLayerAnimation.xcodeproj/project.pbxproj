@@ -18,6 +18,7 @@
 		DD93CF0B1D166355001B84D0 /* MXAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD93CF0A1D166355001B84D0 /* MXAnimationView.m */; };
 		DDAF2D271D1818D000AC2874 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF2D261D1818D000AC2874 /* UIColor+Hex.m */; };
 		DDAF2D2B1D18193F00AC2874 /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAF2D2A1D18193F00AC2874 /* CircleLayer.m */; };
+		DDD39FF91D2F614B002268A1 /* TriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD39FF81D2F614B002268A1 /* TriangleLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		DDAF2D261D1818D000AC2874 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		DDAF2D291D18193F00AC2874 /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
 		DDAF2D2A1D18193F00AC2874 /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
+		DDD39FF71D2F614B002268A1 /* TriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleLayer.h; sourceTree = "<group>"; };
+		DDD39FF81D2F614B002268A1 /* TriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,8 @@
 			children = (
 				DDAF2D291D18193F00AC2874 /* CircleLayer.h */,
 				DDAF2D2A1D18193F00AC2874 /* CircleLayer.m */,
+				DDD39FF71D2F614B002268A1 /* TriangleLayer.h */,
+				DDD39FF81D2F614B002268A1 /* TriangleLayer.m */,
 			);
 			path = layer;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 				DDAF2D271D1818D000AC2874 /* UIColor+Hex.m in Sources */,
 				DD93CEDA1D165137001B84D0 /* ViewController.m in Sources */,
 				DDAF2D2B1D18193F00AC2874 /* CircleLayer.m in Sources */,
+				DDD39FF91D2F614B002268A1 /* TriangleLayer.m in Sources */,
 				DD93CED71D165137001B84D0 /* AppDelegate.m in Sources */,
 				DD93CED41D165137001B84D0 /* main.m in Sources */,
 			);
