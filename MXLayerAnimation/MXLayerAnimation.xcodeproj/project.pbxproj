@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD48C2F51D36731B002BB458 /* RectangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD48C2F41D36731B002BB458 /* RectangleLayer.m */; };
 		DD93CED41D165137001B84D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD93CED31D165137001B84D0 /* main.m */; };
 		DD93CED71D165137001B84D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD93CED61D165137001B84D0 /* AppDelegate.m */; };
 		DD93CEDA1D165137001B84D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD93CED91D165137001B84D0 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD48C2F31D36731B002BB458 /* RectangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleLayer.h; sourceTree = "<group>"; };
+		DD48C2F41D36731B002BB458 /* RectangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleLayer.m; sourceTree = "<group>"; };
 		DD93CECF1D165137001B84D0 /* MXLayerAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXLayerAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD93CED31D165137001B84D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD93CED51D165137001B84D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				DDAF2D2A1D18193F00AC2874 /* CircleLayer.m */,
 				DDD39FF71D2F614B002268A1 /* TriangleLayer.h */,
 				DDD39FF81D2F614B002268A1 /* TriangleLayer.m */,
+				DD48C2F31D36731B002BB458 /* RectangleLayer.h */,
+				DD48C2F41D36731B002BB458 /* RectangleLayer.m */,
 			);
 			path = layer;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 				DD93CEDA1D165137001B84D0 /* ViewController.m in Sources */,
 				DDAF2D2B1D18193F00AC2874 /* CircleLayer.m in Sources */,
 				DDD39FF91D2F614B002268A1 /* TriangleLayer.m in Sources */,
+				DD48C2F51D36731B002BB458 /* RectangleLayer.m in Sources */,
 				DD93CED71D165137001B84D0 /* AppDelegate.m in Sources */,
 				DD93CED41D165137001B84D0 /* main.m in Sources */,
 			);
