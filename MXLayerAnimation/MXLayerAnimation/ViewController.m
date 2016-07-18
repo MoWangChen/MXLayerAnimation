@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MXAnimationView.h"
+#import "UIColor+Hex.h"
 
 @interface ViewController ()
 
@@ -19,9 +20,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    MXAnimationView *animationView = [[MXAnimationView alloc] initWithFrame:self.view.bounds];
-//    animationView.backgroundColor = [UIColor purpleColor];
-//    [animationView ]
+    CGFloat size = 100.0;
+    MXAnimationView *animationView = [[MXAnimationView alloc] initWithFrame:CGRectMake(CGRectGetWidth(self.view.frame)/2 - size/2, CGRectGetHeight(self.view.frame)/2 - size/2, size, size)];
+    animationView.parentFrame = self.view.bounds;
     [self.view addSubview:animationView];
     
     

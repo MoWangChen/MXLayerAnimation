@@ -11,4 +11,6 @@
 
 @interface WaveLayer : CAShapeLayer
 
+- (void)waveAnimation;
+
 @end
